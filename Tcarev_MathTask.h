@@ -16,10 +16,10 @@ bool UserInput(string input) {
     catch (...) //Если возникла ошибка в блоке try.
     { return false; }
     return true;
-
+}
 //Вычисления площади прямоугольника.
 int CalcRectangleArea(int NumberA, int NumberB) {
     return NumberA * NumberB;
 }
-}
+
 #endif

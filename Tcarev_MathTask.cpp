@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Tcarev_MathTask.h"
 
+using namespace std;
+
 int main()
 {
     string str_input; //Вспомогательная переменная.
@@ -35,4 +37,5 @@ int main()
     int RectangleArea = CalcRectangleArea(NumberA, NumberB);
     //Вывод значение площади
     cout << "Area of Rectangle is " << RectangleArea << endl;
+    return 0;
 }
