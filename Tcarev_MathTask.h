@@ -12,6 +12,7 @@ bool UserInput(string input) {
     try {
         //Преобразование введёного значения в тип int.
         int number = stoi(input);
+        if(number < 0) return false;
     }
     catch (...) //Если возникла ошибка в блоке try.
     { return false; }
